@@ -26,7 +26,7 @@ export const FooterWrapper = styled.div`
         .logo {
             img {
                 width: 100%;
-                max-width: 200px;
+                max-width: 150px;
             }
         }
         .address-Bar {

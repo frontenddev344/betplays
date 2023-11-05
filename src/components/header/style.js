@@ -5,13 +5,14 @@ export const HeaderStyle = styled.header`
 
 
 .headerBar {
-  background: #fffffff5;
+  background: #ffffff;
   padding: 10px 0;
   position: fixed;
   top: 0;
   z-index: 99;
   left: 0;
   right: 0;
+  box-shadow: 0px 1px 5px #efefef;
 
     .headerWrapper {
         display: grid;
@@ -22,7 +23,7 @@ export const HeaderStyle = styled.header`
             grid-colums: 1/2;
                img {
                 width: 100%;
-                max-width: 200px;
+                max-width: 150px;
              }
           }
           ul.headerNav {
@@ -44,6 +45,8 @@ export const HeaderStyle = styled.header`
     }
     .hamburger-Icon svg {
       color: #28ebbc !important;
+      cursor: pointer;
+      margin-top: 6px;
   }
 }
 ul.headerNav::-webkit-scrollbar-track
@@ -85,7 +88,7 @@ ul.headerNav {
     display: block !important;
     position: fixed;
     right: 0;
-    background: #f8f8f7;
+    background: #ffffff;
     top: 88px;
     bottom: 0;
     width: 50%;
@@ -97,9 +100,10 @@ ul.headerNav {
 }
 }
 
-
-// media query end braket
+.headerBar .headerWrapper ul.headerNav li a.active {
+    color: #000;
 }
+
 
 
 `

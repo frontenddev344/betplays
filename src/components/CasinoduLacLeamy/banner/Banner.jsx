@@ -11,7 +11,7 @@ function SlideBanner() {
           <Box className="headingContent">
             <Box className="headingstyle">
               <Typography variant="h1">
-                Bet-Plays
+                Casino du Lac-Leamy
               </Typography>
               <Box className="img">
                 <img src={pathImg} alt="Shape" />
@@ -19,7 +19,7 @@ function SlideBanner() {
             </Box>
 
             <Typography component="subtitle" className="text">
-              Your Ultimate Guide to Canadian Casino Adventures!
+              Your Gateway to Entertainment in Gatineau, Quebec
             </Typography>
           </Box>
         </Box>

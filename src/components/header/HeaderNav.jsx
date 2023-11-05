@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Box } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { HeaderStyle } from "./style";
 import DehazeIcon from '@mui/icons-material/Dehaze';
+
 
 function HeaderNav() {
 
@@ -18,31 +19,31 @@ function HeaderNav() {
               <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink >Caesars Windsor Hotel & Casino </NavLink>
+              <NavLink to='/CaesarsWindsorHotelCasino'>Caesars Windsor Hotel & Casino </NavLink>
             </li>
             <li>
-              <NavLink >Casino du Lac-Leamy</NavLink>
+              <NavLink to='/CasinoduLacLeamy'>Casino du Lac-Leamy</NavLink>
             </li>
             <li>
-              <NavLink >Casino Rama Resort</NavLink>
+              <NavLink to='/CasinoRamaResort'>Casino Rama Resort</NavLink>
             </li>
             <li>
-              <NavLink >The Niagara Fallsview Casino Resort </NavLink>
+              <NavLink to='/TheNiagaraFallsviewCasinoResort'>The Niagara Fallsview Casino Resort </NavLink>
             </li>
             <li>
-              <NavLink >Casino de Montréal</NavLink>
+              <NavLink to='/CasinoDeMontreal'>Casino de Montréal</NavLink>
             </li>
             <li>
-              <NavLink >River Rock Casino Resort</NavLink>
+              <NavLink to='/CasinoNovaScotia'>Casino Nova Scotia</NavLink>
             </li>
             <li>
-              <NavLink >Casino Nova Scotia</NavLink>
+              <NavLink to='/RiverRockCasinoResort'>River Rock Casino Resort</NavLink>
             </li>
             <li>
-              <NavLink >Casino New Brunswick</NavLink>
+              <NavLink to='/CasinoNewBruBrunswick'>Casino New Brunswick</NavLink>
             </li>
             <li>
-              <NavLink >Contact</NavLink>
+              <NavLink to='/Contact'>Contact</NavLink>
             </li>
 
           </ul>

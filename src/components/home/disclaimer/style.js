@@ -25,7 +25,7 @@ export const DisclaimerWrapper = styled.div`
             ul  {
                 
                 li {
-                    font-size: 15px;
+                    font-size: 12px;
                     font-family: 'Raleway',sans-serif!important;
                     margin-bottom: 10px;
                 }

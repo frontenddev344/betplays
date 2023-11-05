@@ -2,7 +2,9 @@ import React from "react";
 import { HeaderStyle } from "./style";
 import { Box, Container } from "@mui/material";
 import HeaderNav from "./HeaderNav";
-import Logo from "../../assest/logo.png"
+import Logo from "../../assest/logo.png";
+// import Link from "@mui/material";
+
 
 
 function Header() {
@@ -11,14 +13,19 @@ function Header() {
             <HeaderStyle>
                 <header className="headerBar">
                     <Container >
-                       <Box className="headerWrapper">
+                        <Box className="headerWrapper">
 
-                        {/* logo bar */}
-                        <Box className="logo">
-                            <img src={Logo} alt="logo" />
-                        </Box>
-                        {/* nav links */}
-                        <HeaderNav />
+                            {/* logo bar */}
+                            <Box className="logo">
+
+
+                                <a href="/">
+                                    <img src={Logo} alt="logo" />
+                                </a>
+
+                            </Box>
+                            {/* nav links */}
+                            <HeaderNav />
                         </Box>
                     </Container>
                 </header>

@@ -13,7 +13,9 @@ function Footer() {
                     <Container>
                         <Box className="footerInnerWrapper">
                             <Box className="logo">
-                                <img src={logo} alt="Shape" />
+                                <a href="/">
+                                    <img src={logo} alt="Shape" />
+                                </a>
                                 <Box className="address-Bar">
                                     <Typography>
                                         <span>Address : </span>
@@ -52,7 +54,7 @@ function Footer() {
                             </Box>
                         </Box>
                         <Box className="bottom-footer">
-                            <Typography>© 2023 Offresetoiles. tous les droits sont réservés.</Typography>
+                            <Typography>© 2023 Betplays. all rights reserved.</Typography>
                         </Box>
                     </Container>
                 </Box>

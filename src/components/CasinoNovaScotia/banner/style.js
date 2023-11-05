@@ -8,7 +8,7 @@ export const BannerWrapper = styled.div`
     background-image: url(${BannerImg});
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     position: relative;
     margin-top: 95px;
@@ -29,7 +29,7 @@ export const BannerWrapper = styled.div`
         .headingstyle {
             text-align: center;
             .img{
-                margin-top: -20px;
+                
                 img {
                     width: 100%;
                     max-width: 470px;
@@ -40,10 +40,10 @@ export const BannerWrapper = styled.div`
             color: #0ed9a8;
             font-family: 'Cinzel',serif;
             font-weight: 600;
-            font-size: 90px;
+            font-size: 42px;
         }
         .text {
-            font-size: 34px;
+            font-size: 26px;
             color: #f2f2f2;
             font-family: 'Cinzel', serif;
         }
