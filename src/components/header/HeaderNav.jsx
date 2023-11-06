@@ -34,10 +34,10 @@ function HeaderNav() {
               <NavLink to='/CasinoDeMontreal'>Casino de Montréal</NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoNovaScotia'>Casino Nova Scotia</NavLink>
+              <NavLink to='/RiverRockCasinoResort'>River Rock Casino Resort</NavLink>
             </li>
             <li>
-              <NavLink to='/RiverRockCasinoResort'>River Rock Casino Resort</NavLink>
+              <NavLink to='/CasinoNovaScotia'>Casino Nova Scotia</NavLink>
             </li>
             <li>
               <NavLink to='/CasinoNewBruBrunswick'>Casino New Brunswick</NavLink>
