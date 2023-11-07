@@ -104,6 +104,14 @@ ul.headerNav {
     color: #000;
 }
 
+ @media screen and (max-width: 991px){
+
+.headerBar .headerWrapper ul.headerNav li {
+  margin: 20px 20px;
+  font-size: 18px;
+}
+ }
+
 
 
 `
