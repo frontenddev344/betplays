@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/betplays/static/css/main.7eafd5b4.css",
+    "main.js": "/betplays/static/js/main.be4892d1.js",
+    "static/js/787.69ac835a.chunk.js": "/betplays/static/js/787.69ac835a.chunk.js",
+    "static/media/home2.jpg": "/betplays/static/media/home2.62cd11f44514b1969784.jpg",
+    "static/media/CasinoRamaResortBlog.jpg": "/betplays/static/media/CasinoRamaResortBlog.44bc8da05db9eafea7de.jpg",
+    "static/media/h3.jpg": "/betplays/static/media/h3.4d809e849c96d0cd2a8d.jpg",
+    "static/media/Slider-03.jpg": "/betplays/static/media/Slider-03.d9f0c96f65c2dcde176d.jpg",
+    "static/media/14206.jpg": "/betplays/static/media/14206.2acf3f2414b510968130.jpg",
+    "static/media/wcl-gaming.jpg": "/betplays/static/media/wcl-gaming.6154fa962a3e833f4a64.jpg",
+    "static/media/h5.jpg": "/betplays/static/media/h5.41e53be78b8e0c00eea7.jpg",
+    "static/media/roulette.png": "/betplays/static/media/roulette.a15ad54d394415860a03.png",
+    "static/media/contact-breadcrumb-1.jpg": "/betplays/static/media/contact-breadcrumb-1.7e8d89f0dc578a067755.jpg",
+    "static/media/h2.jpg": "/betplays/static/media/h2.142ede389c8dc7d39567.jpg",
+    "static/media/g1.jpg": "/betplays/static/media/g1.eb6efb2527b0825d7caa.jpg",
+    "static/media/h6.jpg": "/betplays/static/media/h6.77d0265835899f4c321c.jpg",
+    "static/media/home1.jpg": "/betplays/static/media/home1.413259bd2933a59271f2.jpg",
+    "static/media/h1.jpg": "/betplays/static/media/h1.19549957370da60def4f.jpg",
+    "static/media/Foregroun.webp": "/betplays/static/media/Foregroun.e633f6e5f8643dd2d219.webp",
+    "static/media/bg-img.jpg": "/betplays/static/media/bg-img.46b784a53c99c7064242.jpg",
+    "static/media/h7.jpg": "/betplays/static/media/h7.ea52883bb7c3ce0d1ab9.jpg",
+    "static/media/h4.jpg": "/betplays/static/media/h4.85566c3743fcf0ce579f.jpg",
+    "index.html": "/betplays/index.html",
+    "main.7eafd5b4.css.map": "/betplays/static/css/main.7eafd5b4.css.map",
+    "main.be4892d1.js.map": "/betplays/static/js/main.be4892d1.js.map",
+    "787.69ac835a.chunk.js.map": "/betplays/static/js/787.69ac835a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eafd5b4.css",
+    "static/js/main.be4892d1.js"
+  ]
+}
