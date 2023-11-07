@@ -41,6 +41,12 @@ function HeaderNav() {
                         <li>
                             <NavLink to='/Contact'>Contact</NavLink>
                         </li>
+                        <li>
+                            <NavLink to='/PrivacyPolicy'>Privacy Policy</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/TermandCondition'>Terms and Conditions</NavLink>
+                        </li>
 
                     </ul>
                 </Box>

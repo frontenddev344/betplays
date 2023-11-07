@@ -39,6 +39,12 @@ section.accordition-wrapper {
         }
     }
 }
+.css-o4b71y-MuiAccordionSummary-content {
+    margin: 0;
+}
+section.accordition-wrapper .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters p {
 
+    margin: 0;
+}
 
 `

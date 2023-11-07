@@ -45,7 +45,7 @@ p {
 
 .heading span {
   position: absolute;
-  font-size: 192px;
+  font-size: 150px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -138,4 +138,121 @@ span[aria-label="Loading Spinner"] {
   -webkit-animation: 2s grow ease-in-out infinite;
   -webkit-animation: 2s grow ease-in-out infinite;
   animation: 2s grow ease-in-out infinite;
+}
+input:focus-visible,
+textarea:focus-visible
+{
+  outline: none;
+  border: none;
+}
+::placeholder {
+  color: #464646;
+  font-family: 'Cinzel', serif !important;
+  font-size: 17px;
+}
+.bannerMain .headingContent .text {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+ .bannerMain .headingContent h1 {
+    font-size: 62px;
+}
+.bannerMain .headingContent .headingstyle .img {
+  margin-top: 0;
+}
+.bannerMain .headingContent .text {
+  font-size: 26px;
+
+}
+.heading {
+  font-size: 28px !important;
+}
+section.whychoose .whychoosewraper .heading span,
+.whatofferwrapper .whatofferInnerwrapper .heading span,
+.heading span {
+  font-size: 90px !important;
+}
+.whatofferwrapper,
+section.casinoCardwrapper {
+  padding: 50px 0 !important;
+}
+ .bannerMain .headingContent h1 {
+  font-size: 36px;
+}
+.bannerMain .headingContent .text {
+  font-size: 23px;
+}
+.gaming-wrapper .gaming-content .gaming-text .text {
+  font-size: 17px !important;
+}
+.BgCollunm .content .text {
+  max-width: 600px !important;
+}
+.BgCollunm .content .text p, .whatofferlist li {
+  font-size: 17px !important;
+}
+.BgCollunm::after {
+  width: 75% !important;
+}
+p.MuiTypography-root.MuiTypography-body1.heading.css-ahj2mt-MuiTypography-root {
+  font-size: 22px !important;
+}
+.BgCollunm,
+.css-c9dk3s .gaming-wrapper {
+  padding: 50px 0 !important;
+}
+section.whychoose {
+  margin: 50px 0 !important;
+}
+p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
+  margin-bottom: 0 !important;
+}
+p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
+  font-size: 18px !important;
+}
+.css-1ly1qby .BgCollunm {
+  margin-top: 50px !important;
+}
+.css-c9dk3s .gaming-wrapper {
+  grid-template-columns: 1fr !important;
+}
+.css-c9dk3s .gaming-wrapper .gaming-content {
+  grid-template-columns: 80% 1fr !important;
+  padding: 20px;
+}
+.gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting marquee p {
+  font-size: 28px !important;
+}
+.gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting {
+  width: 70px !important;
+}
+.dataContent .dataContentText {
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+.dataContent {
+  margin-top: 25px !important;
+}
+.whatofferwrapper .whatofferInnerwrapper .whatofferlist li span {
+  font-size: 20px !important;
+  margin-right: 5px !important;
+}
+.headingstyle.repeat-sec {
+  margin-top: 50px !important;
+}
+section.accordition-wrapper {
+  padding: 50px 0 !important;
+}
+.footerwrapper .footerInnerWrapper .icon-links-wrapper {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gaming-wrapper .gaming-img .img img {
+  height: 400px !important;
+}
+.gaming-wrapper .gaming-img .img {
+  padding: 0 35px;
+}
 }

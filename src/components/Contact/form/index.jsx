@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import { FormWrapper } from "./style";
 
 export default function Form() {
@@ -13,7 +13,7 @@ export default function Form() {
                                 <input type="text" className="" placeholder="First Name" class="name" />
                                 <input type="text" className="" placeholder="Last Name" class="name" />
                                 <input type="text" className="" placeholder="Email" class="fullW" />
-                                <textarea name="" cols="30" rows="10" class="fullW" placeholder="Message"></textarea>
+                                <textarea name="" cols="30" rows="10" class="fullW" placeholder="Message . . ."></textarea>
                             </form>
                         </Box>
                     </Container>

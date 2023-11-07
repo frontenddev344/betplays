@@ -8,7 +8,7 @@ export const BannerWrapper = styled.div`
     background-image: url(${BannerImg});
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     position: relative;
     margin-top: 95px;

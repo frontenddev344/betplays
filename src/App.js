@@ -9,6 +9,8 @@ import CasinoDeMontreal from './container/CasinodeMontreal/Index';
 import CasinoNovaScotia from './container/CasinoNovaScotia/Index';
 import RiverRockCasinoResort from './container/RiverRockCasinoResort/Index';
 import CasinoNewBruBrunswick from './container/CasinoNewBrunswick/Index';
+import PrivacyPolicy from './container/privacy-policy/index';
+import TermandCondition from './container/term-and-condition/index';
 import Contact from './container/Contact/Index';
 import { useState, useEffect } from 'react';
 import CircleLoader from "react-spinners/CircleLoader";
@@ -46,6 +48,8 @@ function App() {
               <Route path="/CasinoNovaScotia" element={<CasinoNovaScotia />} />
               <Route path="/CasinoNewBruBrunswick" element={<CasinoNewBruBrunswick />} />
               <Route path="/Contact" element={<Contact />} />
+              <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+              <Route path="/TermandCondition" element={<TermandCondition />} />
             </Routes>
           </BrowserRouter>
       }

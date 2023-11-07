@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import BannerImg from "../../../assest/bg-img.jpg";
+import BannerImg from "../../../assest/Foregroun.webp";
 export const WhatWeOfferWrapper = styled.div`
 
 .whatofferwrapper {
@@ -9,6 +9,7 @@ export const WhatWeOfferWrapper = styled.div`
     width: 100%;
     position: relative;
     padding: 100px 0;
+    background-attachment: fixed;
     &::after{
         position: absolute;
         content: '';

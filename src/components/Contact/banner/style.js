@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import BannerImg from "../../../assest/home1.jpg";
+import BannerImg from "../../../assest/contact-breadcrumb-1.jpg";
 
 export const BannerWrapper = styled.div`
 
@@ -8,7 +8,7 @@ export const BannerWrapper = styled.div`
     background-image: url(${BannerImg});
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     position: relative;
     margin-top: 95px;
