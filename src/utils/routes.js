@@ -37,27 +37,27 @@ const routes = [
 	errorElement: <ErrorPage />
 },
 {
-	path: "/CasinoNovaScotia",
+	path: "/casino-nova-scotia",
 	element: <CasinoNovaScotia />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/CasinoNewBruBrunswick",
+	path: "/casino-new-bru-brunswick",
 	element: <CasinoNewBruBrunswick />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/Contact",
+	path: "/contact",
 	element: <Contact />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/PrivacyPolicy",
+	path: "/privacy-policy",
 	element: <PrivacyPolicy />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/TermandCondition",
+	path: "/term-and-condition",
 	element: <TermandCondition />,
 	errorElement: <ErrorPage />
 },
