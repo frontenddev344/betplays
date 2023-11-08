@@ -14,6 +14,8 @@ import TermandCondition from './container/term-and-condition/index';
 import Contact from './container/Contact/Index';
 import { useState, useEffect } from 'react';
 import CircleLoader from "react-spinners/CircleLoader";
+import CookieConsent from 'react-cookie-consent';
+import { Typography } from '@mui/material';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -53,7 +55,27 @@ function App() {
             </Routes>
           </BrowserRouter>
       }
+      <CookieConsent debug={true}
+        style={{ background: '#000', padding: '20px 0' }}
+        buttonStyle={{
+          color: '#fff', background: '#0ed9a8'
+        }}
+        buttonText="I accept!"
 
+
+      >
+
+        <Typography component="h4">
+          This website uses cookies
+        </Typography>
+        <Typography >
+          We use cookies to personalise content and ads, to provide social media features and to
+          analyse our traffic. We also share information about your use of our site with our social media,
+          advertising and analytics partners who may combine it with other information that you’ve provided
+          to them or that they’ve collected from your use of their services.
+        </Typography>
+
+      </CookieConsent>
     </div>
   );
 }
