@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Container, Typography } from "@mui/material";
 import { PrivacyPolicyWrapper } from "./style";
 
-
 export default function PrivacyPolicyPage() {
     return (
         <>
