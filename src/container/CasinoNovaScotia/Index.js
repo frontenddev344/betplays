@@ -11,7 +11,7 @@ import WhatWeOffer from "../../components/CasinoNovaScotia/what-we-offers/index"
 
 
 
-export default function CasinoNovaScotia() {
+export const CasinoNovaScotia = () => {
     return (
         <>
             <CasinoNovaWrapper>

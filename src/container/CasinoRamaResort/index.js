@@ -11,7 +11,7 @@ import WhatWeOfferTwo from "../../components/CasinoRamaResort/what-we-offers-Two
 import Accrodition from "../../components/CasinoRamaResort/accordition";
 
 
-export default function CasinoRamaResort() {
+export const CasinoRamaResort = () => {
     return (
         <>
             <CasinoRamaWrapper>

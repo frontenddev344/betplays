@@ -153,29 +153,6 @@ textarea:focus-visible
 .bannerMain .headingContent .text {
   text-align: center;
 }
-.CookieConsent {
-  display: grid !important;
-  grid-template-columns: 1fr 10% !important;
-  align-items: center !important;
-}
-.CookieConsent button {
-  font-family: 'Cinzel',serif;
-  transition: .3s !important;
-  margin: 15px !important;
-  padding: 13px 20px !important;
-  border-radius: 4px !important;
-}
-.CookieConsent button#rcc-confirm-button:hover {
-  background: #fff !important;
-  color: rgb(14, 217, 168) !important;
-}
-.CookieConsent h4 {
-  color: #ffffff;
-  font-size: 22px;
-}
-.CookieConsent p {
-  color: #e5e5e5;
-}
 
 @media screen and (max-width: 991px) {
  .bannerMain .headingContent h1 {

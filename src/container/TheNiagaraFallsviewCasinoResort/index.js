@@ -9,7 +9,7 @@ import WhatWeOfferTwo from "../../components/TheNiagaraFallsviewCasinoResort/wha
 import Accrodition from "../../components/TheNiagaraFallsviewCasinoResort/accordition/index"
 
 
-export default function TheNiagaraFallsviewCasinoResort() {
+export const TheNiagaraFallsviewCasinoResort = () => {
     return (
         <>
             <RiverRockWrapper>

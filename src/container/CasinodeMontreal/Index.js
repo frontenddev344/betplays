@@ -10,7 +10,7 @@ import WhatWeOfferTwo from "../../components/CasinodeMontreal/what-we-offers-Two
 import Accrodition from "../../components/CasinodeMontreal/accordition";
 
 
-export default function CasinoDeMontreal() {
+export const CasinoDeMontreal = () => {
     return (
         <>
             <CasinodeWrapper>

@@ -8,7 +8,7 @@ import Form from "../../components/Contact/form";
 import WhatWeOffer from "../../components/Contact/what-we-offers";
 
 
-function Contact() {
+export const Contact = () => {
     return (
         <>
             <ContactWrapper>
@@ -21,5 +21,5 @@ function Contact() {
             </ContactWrapper>
         </>
     )
-} export default Contact;
+}
 

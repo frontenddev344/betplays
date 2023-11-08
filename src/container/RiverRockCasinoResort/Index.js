@@ -8,7 +8,7 @@ import WhatWeOfferTwo from "../../components/RiverRockCasinoResort/what-we-offer
 import WhyChoose from "../../components/RiverRockCasinoResort/why-choose";
 import GamingExperience from "../../components/RiverRockCasinoResort/gaming-experiance";
 
-export default function RiverRockCasinoResort() {
+export const RiverRockCasinoResort = () => {
     return (
         <>
             <RiverRockWrapper>

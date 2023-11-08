@@ -10,7 +10,7 @@ import WhatWeOfferTwo from "../../components/CasinoduLacLeamy/what-we-offers-Two
 import Accrodition from "../../components/CasinoduLacLeamy/accordition/index";
 
 
-export default function CasinoDuLacLeamy() {
+export const CasinoduLacLeamy = () => {
     return (
         <>
             <CasinodulacWrapper>
