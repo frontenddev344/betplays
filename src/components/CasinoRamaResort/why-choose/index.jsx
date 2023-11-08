@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Typography, Container } from "@mui/material";
 import { WhyChooseWrapper } from "./style";
-// import pathImg from "../../../assest/_Path_.png";
 
 function WhyChoose() {
     return (
@@ -17,9 +16,6 @@ function WhyChoose() {
                                     premier
                                     </span>
                                 </Typography>
-                                {/* <Box className="img">
-                                    <img src={pathImg} alt="Shape" />
-                                </Box> */}
                             </Box>
                             <Typography className="text1">
                                 This Casino is a premier entertainment and gaming destination that offers

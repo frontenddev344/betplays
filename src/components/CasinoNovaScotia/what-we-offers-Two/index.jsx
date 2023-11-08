@@ -3,7 +3,6 @@ import { Box, Typography, Container } from "@mui/material";
 import { WhatWeOfferWrapper } from "./style";
 import { Data } from "./Data";
 import { Data2 } from "./Data2";
-// import pathImg from "../../../assest/_Path_.png";
 
 function WhatWeOfferTwo() {
     return (
@@ -15,9 +14,6 @@ function WhatWeOfferTwo() {
                             <Typography className="heading">
                                 Dining and Culinary Experiences
                             </Typography>
-                            {/* <Box className="img">
-                                <img src={pathImg} alt="Shape" />
-                            </Box> */}
                         </Box>
                         <Box className="dataContent">
                             <Typography className="dataContentText">

@@ -3,7 +3,6 @@ import { HeaderStyle } from "./style";
 import { Box, Container } from "@mui/material";
 import HeaderNav from "./HeaderNav";
 import Logo from "../../assest/logo.png";
-// import Link from "@mui/material";
 
 
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Typography, Container } from "@mui/material";
 import { WhyChooseWrapper } from "./style";
-// import pathImg from "../../../assest/_Path_.png";
 
 function WhyChoose() {
     return (
@@ -10,17 +9,6 @@ function WhyChoose() {
                 <Box className="whychoose" component="section">
                     <Container>
                         <Box className="whychoosewraper">
-                            {/* <Box className="headingstyle">
-                                <Typography className="heading">
-                                    Halifax and Sydney, Nova Scotia
-                                    <span>
-                                        Windsor
-                                    </span>
-                                </Typography>
-                                <Box className="img">
-                                    <img src={pathImg} alt="Shape" />
-                                </Box>
-                            </Box> */}
                             <Typography className="text1">
                                 Nestled in the city of Moncton, New Brunswick, Casino New Brunswick stands
                                 as a prominent gaming and entertainment destination that offers an exciting blend

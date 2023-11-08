@@ -2,7 +2,6 @@ import React from "react";
 import { GamingExperienceWraspper } from "./style";
 import { Box, Typography } from "@mui/material";
 import Gimg from "../../../assest/g1.jpg";
-import { Link } from "@mui/material";
 
 export default function GamingExperience() {
     return (

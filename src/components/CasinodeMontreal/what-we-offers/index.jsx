@@ -10,12 +10,6 @@ function WhatWeOffer() {
             <Box component='section' className="whatofferwrapper">
                 <Container>
                     <Box className="whatofferInnerwrapper">
-                        {/* <Box className="headingstyle">
-                            <Typography className="heading">
-                                What We Offer
-                                <span>Offer</span>
-                            </Typography>
-                        </Box> */}
                         <Box className="headingstyle">
                             <Typography className="heading">
                                 Dining and Culinary Experiences
