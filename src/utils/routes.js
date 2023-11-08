@@ -7,32 +7,32 @@ const routes = [
   errorElement: <ErrorPage />
 },
 {
-	path: "/CaesarsWindsorHotelCasino",
+	path: "/caesars-windsor-hotel-casino",
 	element: <CaesarsWindsorHotelCasino />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/CasinoduLacLeamy",
+	path: "/casinodu-lac-leamy",
 	element: <CasinoduLacLeamy />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/CasinoRamaResort",
+	path: "/casino-rama-resort",
 	element: <CasinoRamaResort />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/TheNiagaraFallsviewCasinoResort",
+	path: "/the-niagara-fallsview-casino-resort",
 	element: <TheNiagaraFallsviewCasinoResort />,
 	errorElement: <ErrorPage />
 },
 {
-	path: "/CasinoDeMontreal",
+	path: "/casino-de-montreal",
 	element: <CasinoDeMontreal />,  
 	errorElement: <ErrorPage />
 },
 {
-	path: "/RiverRockCasinoResort",
+	path: "/river-rock-casino-resort",
 	element: <RiverRockCasinoResort />,
 	errorElement: <ErrorPage />
 },

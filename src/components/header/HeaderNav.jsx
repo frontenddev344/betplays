@@ -19,31 +19,31 @@ function HeaderNav() {
               <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/CaesarsWindsorHotelCasino'>Caesars Windsor Hotel & Casino </NavLink>
+              <NavLink to='/caesars-windsor-hotel-casino'>Caesars Windsor Hotel & Casino </NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoduLacLeamy'>Casino du Lac-Leamy</NavLink>
+              <NavLink to='/casinodu-lac-leamy'>Casino du Lac-Leamy</NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoRamaResort'>Casino Rama Resort</NavLink>
+              <NavLink to='/casino-rama-resort'>Casino Rama Resort</NavLink>
             </li>
             <li>
-              <NavLink to='/TheNiagaraFallsviewCasinoResort'>The Niagara Fallsview Casino Resort </NavLink>
+              <NavLink to='/the-niagara-fallsview-casino-resort'>The Niagara Fallsview Casino Resort </NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoDeMontreal'>Casino de Montréal</NavLink>
+              <NavLink to='/casino-de-montreal'>Casino de Montréal</NavLink>
             </li>
             <li>
-              <NavLink to='/RiverRockCasinoResort'>River Rock Casino Resort</NavLink>
+              <NavLink to='/river-rock-casino-resort'>River Rock Casino Resort</NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoNovaScotia'>Casino Nova Scotia</NavLink>
+              <NavLink to='/casino-nova-scotia'>Casino Nova Scotia</NavLink>
             </li>
             <li>
-              <NavLink to='/CasinoNewBruBrunswick'>Casino New Brunswick</NavLink>
+              <NavLink to='/casino-new-bru-brunswick'>Casino New Brunswick</NavLink>
             </li>
             <li>
-              <NavLink to='/Contact'>Contact</NavLink>
+              <NavLink to='/contact'>Contact</NavLink>
             </li>
 
           </ul>
