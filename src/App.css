@@ -94,38 +94,51 @@ span[aria-label="Loading Spinner"] {
   cursor: pointer;
 
 }
+
 .btn-G:hover {
   background: transparent !important;
   border-color: #0ed9a8 !important;
   color: #0ed9a8 !important;
   box-shadow: 0px 0px 5px 0px #81f4d9 !important;
 }
+
 @-webkit-keyframes grow {
-  0%, 40%, 100% {
+
+  0%,
+  40%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
+
 @keyframes grow {
-  0%, 40%, 100% {
+
+  0%,
+  40%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
+
 .whatofferlist li {
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   margin-bottom: 30px;
   position: relative;
 }
+
 .whatofferlist li::after {
   position: absolute;
   content: '';
@@ -139,352 +152,477 @@ span[aria-label="Loading Spinner"] {
   -webkit-animation: 2s grow ease-in-out infinite;
   animation: 2s grow ease-in-out infinite;
 }
+
 input:focus-visible,
-textarea:focus-visible
-{
+textarea:focus-visible {
   outline: none;
   border: none;
 }
+
 ::placeholder {
   color: #464646;
   font-family: 'Cinzel', serif !important;
   font-size: 17px;
 }
+
 .bannerMain .headingContent .text {
   text-align: center;
 }
 
 @media screen and (max-width: 991px) {
- .bannerMain .headingContent h1 {
+  .bannerMain .headingContent h1 {
     font-size: 62px;
-}
-.bannerMain .headingContent .headingstyle .img {
-  margin-top: 0;
-}
-.bannerMain .headingContent .text {
-  font-size: 26px;
+  }
 
-}
-.heading {
-  font-size: 28px !important;
-}
-section.whychoose .whychoosewraper .heading span,
-.whatofferwrapper .whatofferInnerwrapper .heading span,
-.heading span {
-  font-size: 90px !important;
-}
-.whatofferwrapper,
-section.casinoCardwrapper {
-  padding: 50px 0 !important;
-}
- .bannerMain .headingContent h1 {
-  font-size: 36px;
-}
-.bannerMain .headingContent .text {
-  font-size: 23px;
-}
-.gaming-wrapper .gaming-content .gaming-text .text {
-  font-size: 17px !important;
-}
-.BgCollunm .content .text {
-  max-width: 600px !important;
-}
-.BgCollunm .content .text p, .whatofferlist li {
-  font-size: 17px !important;
-}
-.BgCollunm::after {
-  width: 75% !important;
-}
-p.MuiTypography-root.MuiTypography-body1.heading.css-ahj2mt-MuiTypography-root {
-  font-size: 22px !important;
-}
-.BgCollunm,
-.css-c9dk3s .gaming-wrapper {
-  padding: 50px 0 !important;
-}
-section.whychoose {
-  margin: 50px 0 !important;
-}
-p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
-  margin-bottom: 0 !important;
-}
-p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
-  font-size: 18px !important;
-}
-.css-1ly1qby .BgCollunm {
-  margin-top: 50px !important;
-}
-.css-c9dk3s .gaming-wrapper {
-  grid-template-columns: 1fr !important;
-}
-.css-c9dk3s .gaming-wrapper .gaming-content {
-  grid-template-columns: 80% 1fr !important;
-  padding: 20px;
-}
-.gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting marquee p {
-  font-size: 28px !important;
-}
-.gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting {
-  width: 70px !important;
-}
-.dataContent .dataContentText {
-  font-size: 18px !important;
-  margin-bottom: 20px !important;
-  margin-top: 20px !important;
-}
-.dataContent {
-  margin-top: 25px !important;
-}
-.whatofferwrapper .whatofferInnerwrapper .whatofferlist li span {
-  font-size: 20px !important;
-  margin-right: 5px !important;
-}
-.headingstyle.repeat-sec {
-  margin-top: 50px !important;
-}
-section.accordition-wrapper {
-  padding: 50px 0 !important;
-}
-.footerwrapper .footerInnerWrapper .icon-links-wrapper {
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.gaming-wrapper .gaming-img .img img {
-  height: 400px !important;
-}
-.gaming-wrapper .gaming-img .img {
-  padding: 0 35px;
-}
-.headerNav.mobile-menu-link ul.headerNav {
-  padding-left: 20px !important;
-}
-.headerNav.mobile-menu-link ul.headerNav li {
-  margin: 20px 20px;
-}
-.headerBar .headerWrapper ul.headerNav li {
-  font-size: 18px;
-}
-section.entertenment-wrapper .entertenment-inner-wrapper {
-  grid-template-columns: 30% 1fr !important;
-}
-section.entertenment-wrapper .entertenment-inner-wrapper p {
-  font-size: 17px !important;
-}
-section.entertenment-wrapper {
-  padding: 50px 0 !important;
-}
-.css-1enrhph section.CardWrapper .CardInnerWrapper {
-  grid-template-columns: 1fr !important;
-}
-section.CardWrapper {
-  padding: 50px 0 !important;
-}
-section.CardWrapper .CardInnerWrapper .content {
-  margin-top: 50px !important;
-}
-.gaming-wrapper {
-  grid-template-columns: 1fr !important;
-  padding: 50px 0 !important;
-  grid-row-gap: 50px !important;
-}
-.css-tzho3n .gaming-wrapper .gaming-content {
-  grid-template-columns: 20% 1fr !important;
-}
-.cardRiver {
-  margin-top: 50px !important;
-  padding: 50px 0 !important;
-}
-.cardRiver .cardRiverInner .Text_heading {
-  margin-top: 30px !important;
-  margin-bottom: 40px !important;
-}
-.cardRiverInner .Text_heading p {
-  font-size: 18px !important;
-}
-section.formBar {
-  padding: 50px 0 !important;
+  .bannerMain .headingContent .headingstyle .img {
+    margin-top: 0;
+  }
 
-}
-section.formBar .inner form textarea {
-  margin-bottom: 0 !important;
-}
+  .bannerMain .headingContent .text {
+    font-size: 26px;
+
+  }
+
+  .heading {
+    font-size: 28px !important;
+  }
+
+  section.whychoose .whychoosewraper .heading span,
+  .whatofferwrapper .whatofferInnerwrapper .heading span,
+  .heading span {
+    font-size: 90px !important;
+  }
+
+  .whatofferwrapper,
+  section.casinoCardwrapper {
+    padding: 50px 0 !important;
+  }
+
+  .bannerMain .headingContent h1 {
+    font-size: 36px;
+  }
+
+  .bannerMain .headingContent .text {
+    font-size: 23px;
+  }
+
+  .gaming-wrapper .gaming-content .gaming-text .text {
+    font-size: 17px !important;
+  }
+
+  .BgCollunm .content .text {
+    max-width: 600px !important;
+  }
+
+  .BgCollunm .content .text p,
+  .whatofferlist li {
+    font-size: 17px !important;
+  }
+
+  .BgCollunm::after {
+    width: 75% !important;
+  }
+
+  p.MuiTypography-root.MuiTypography-body1.heading.css-ahj2mt-MuiTypography-root {
+    font-size: 22px !important;
+  }
+
+  .BgCollunm,
+  .css-c9dk3s .gaming-wrapper {
+    padding: 50px 0 !important;
+  }
+
+  section.whychoose {
+    margin: 50px 0 !important;
+  }
+
+  p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
+    margin-bottom: 0 !important;
+  }
+
+  p.MuiTypography-root.MuiTypography-body1.text1.css-ahj2mt-MuiTypography-root {
+    font-size: 18px !important;
+  }
+
+  .css-1ly1qby .BgCollunm {
+    margin-top: 50px !important;
+  }
+
+  .css-c9dk3s .gaming-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  .css-c9dk3s .gaming-wrapper .gaming-content {
+    grid-template-columns: 80% 1fr !important;
+    padding: 20px;
+  }
+
+  .gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting marquee p {
+    font-size: 28px !important;
+  }
+
+  .gaming-wrapper .gaming-content .gaming-counting-wrapper .gaming-counting {
+    width: 70px !important;
+  }
+
+  .dataContent .dataContentText {
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  .dataContent {
+    margin-top: 25px !important;
+  }
+
+  .whatofferwrapper .whatofferInnerwrapper .whatofferlist li span {
+    font-size: 20px !important;
+    margin-right: 5px !important;
+  }
+
+  .headingstyle.repeat-sec {
+    margin-top: 50px !important;
+  }
+
+  section.accordition-wrapper {
+    padding: 50px 0 !important;
+  }
+
+  .footerwrapper .footerInnerWrapper .icon-links-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .gaming-wrapper .gaming-img .img img {
+    height: 400px !important;
+  }
+
+  .gaming-wrapper .gaming-img .img {
+    padding: 0 35px;
+  }
+
+  .headerNav.mobile-menu-link ul.headerNav {
+    padding-left: 20px !important;
+  }
+
+  .headerNav.mobile-menu-link ul.headerNav li {
+    margin: 20px 20px;
+  }
+
+  .headerBar .headerWrapper ul.headerNav li {
+    font-size: 18px;
+  }
+
+  section.entertenment-wrapper .entertenment-inner-wrapper {
+    grid-template-columns: 30% 1fr !important;
+  }
+
+  section.entertenment-wrapper .entertenment-inner-wrapper p {
+    font-size: 17px !important;
+  }
+
+  section.entertenment-wrapper {
+    padding: 50px 0 !important;
+  }
+
+  .css-1enrhph section.CardWrapper .CardInnerWrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  section.CardWrapper {
+    padding: 50px 0 !important;
+  }
+
+  section.CardWrapper .CardInnerWrapper .content {
+    margin-top: 50px !important;
+  }
+
+  .gaming-wrapper {
+    grid-template-columns: 1fr !important;
+    padding: 50px 0 !important;
+    grid-row-gap: 50px !important;
+  }
+
+  .css-tzho3n .gaming-wrapper .gaming-content {
+    grid-template-columns: 20% 1fr !important;
+  }
+
+  .cardRiver {
+    margin-top: 50px !important;
+    padding: 50px 0 !important;
+  }
+
+  .cardRiver .cardRiverInner .Text_heading {
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .cardRiverInner .Text_heading p {
+    font-size: 18px !important;
+  }
+
+  section.formBar {
+    padding: 50px 0 !important;
+
+  }
+
+  section.formBar .inner form textarea {
+    margin-bottom: 0 !important;
+  }
 }
 
-@media screen and (max-width: 767px){
-.bannerMain .headingContent h1 {
+@media screen and (max-width: 767px) {
+  .bannerMain .headingContent h1 {
     font-size: 32px !important;
-}
-.bannerMain .headingContent .headingstyle .img img,
-.headingstyle .img img {
-  max-width: 300px !important;
-}
-.footerwrapper .footerInnerWrapper {
-  grid-template-columns: 1fr !important;
-  grid-row-gap: 30px;
-}
-.footerwrapper .footerInnerWrapper .address-Bar {
-  text-align: center;
-}
-.footerwrapper .footerInnerWrapper .logo {
-  text-align: center;
-}
-.footerwrapper .footerInnerWrapper .icon-links-wrapper {
-  max-width: 300px;
-  margin: 0 auto;
-}
-.bannerMain .headingContent .text {
-  font-size: 20px !important;
-}
-.gaming-wrapper .gaming-img .img img {
-  height: 300px !important;
-}
-.gaming-wrapper .gaming-content .gaming-text .headingstyle .heading {
-  font-size: 22px!important;
-}
-.whatofferwrapper .whatofferInnerwrapper .whatofferlist li span {
-  font-size: 17px !important;
-  margin-right: 2px !important;
-}
-.gaming-wrapper .gaming-content {
-  grid-template-columns: 20% 1fr !important;
-}
-.BgCollunm::after {
-  width: 100% !important;
-}
-.BgCollunm .content {
-  width: 100%;
-}
-.BgCollunm .content .text {
-  max-width: 90% !important;
-  margin: 0 auto;
-}
-.BgCollunm .content .text {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.css-caqh28 .footerwrapper {
-  padding: 50px 0 0 0 !important;
-}
-section.CardWrapper .CardInnerWrapper .content .h3 {
-  font-size: 22px !important;
-}
-.cardRiver .cardRiverInner .cardWrapper {
-  grid-template-columns: 1fr !important;
-  grid-column-gap: 30px;
-  grid-row-gap: 40px;
-}
-section.entertenment-wrapper .entertenment-inner-wrapper {
-  grid-template-columns: 1fr !important;
-  grid-row-gap: 20px;
-}
-.left-Data,
-.right-Data {
-  text-align: center;
-}
-section.entertenment-wrapper .entertenment-inner-wrapper h4 {
-  margin-bottom: 15px;
-}
-section.whychoose .whychoosewraper .text1, .css-1uqmqnf section.whychoose .whychoosewraper .text2 {
-  font-size: 18px !important;
-}
-.whatofferwrapper .btm-text p {
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px !important;
-}
-.css-1ual02h .casinoCardwrapper .cardsec .card-body {
-  grid-template-columns: 35% 63% !important;
-  grid-column-gap: 20px !important;
-  grid-row-gap: 30px;
-}
-.casinoCardwrapper .cardsec {
-  margin-bottom: 30px !important;
-}
-.disclaimerwrapper {
-  padding: 50px 0 !important;
-}
-.disclaimerwrapper .disclaimerInnerwrapper h4 {
-  font-size: 26px !important;
-}
+  }
+
+  .bannerMain .headingContent .headingstyle .img img,
+  .headingstyle .img img {
+    max-width: 300px !important;
+  }
+
+  .footerwrapper .footerInnerWrapper {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 30px;
+  }
+
+  .footerwrapper .footerInnerWrapper .address-Bar {
+    text-align: center;
+  }
+
+  .footerwrapper .footerInnerWrapper .logo {
+    text-align: center;
+  }
+
+  .footerwrapper .footerInnerWrapper .icon-links-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .bannerMain .headingContent .text {
+    font-size: 20px !important;
+  }
+
+  .gaming-wrapper .gaming-img .img img {
+    height: 300px !important;
+  }
+
+  .gaming-wrapper .gaming-content .gaming-text .headingstyle .heading {
+    font-size: 22px !important;
+  }
+
+  .whatofferwrapper .whatofferInnerwrapper .whatofferlist li span {
+    font-size: 17px !important;
+    margin-right: 2px !important;
+  }
+
+  .gaming-wrapper .gaming-content {
+    grid-template-columns: 20% 1fr !important;
+  }
+
+  .BgCollunm::after {
+    width: 100% !important;
+  }
+
+  .BgCollunm .content {
+    width: 100%;
+  }
+
+  .BgCollunm .content .text {
+    max-width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .BgCollunm .content .text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .css-caqh28 .footerwrapper {
+    padding: 50px 0 0 0 !important;
+  }
+
+  section.CardWrapper .CardInnerWrapper .content .h3 {
+    font-size: 22px !important;
+  }
+
+  .cardRiver .cardRiverInner .cardWrapper {
+    grid-template-columns: 1fr !important;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+  }
+
+  section.entertenment-wrapper .entertenment-inner-wrapper {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 20px;
+  }
+
+  .left-Data,
+  .right-Data {
+    text-align: center;
+  }
+
+  section.entertenment-wrapper .entertenment-inner-wrapper h4 {
+    margin-bottom: 15px;
+  }
+
+  section.whychoose .whychoosewraper .text1,
+  .css-1uqmqnf section.whychoose .whychoosewraper .text2 {
+    font-size: 18px !important;
+  }
+
+  .whatofferwrapper .btm-text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px !important;
+  }
+
+  .css-1ual02h .casinoCardwrapper .cardsec .card-body {
+    grid-template-columns: 35% 63% !important;
+    grid-column-gap: 20px !important;
+    grid-row-gap: 30px;
+  }
+
+  .casinoCardwrapper .cardsec {
+    margin-bottom: 30px !important;
+  }
+
+  .disclaimerwrapper {
+    padding: 50px 0 !important;
+  }
+
+  .disclaimerwrapper .disclaimerInnerwrapper h4 {
+    font-size: 26px !important;
+  }
 }
 
 
-@media screen and (max-width: 575px){
-  section.whychoose .whychoosewraper .heading span, .whatofferwrapper .whatofferInnerwrapper .heading span, .heading span {
+@media screen and (max-width: 575px) {
+
+  section.whychoose .whychoosewraper .heading span,
+  .whatofferwrapper .whatofferInnerwrapper .heading span,
+  .heading span {
     font-size: 62px !important;
   }
- section.formBar .inner form input.name {
+
+  section.formBar .inner form input.name {
     width: 100%;
-}
-.bannerMain .headingContent .headingstyle .img {
-  margin-top: 0 !important;
-}
-section.whychoose .whychoosewraper h3 {
-  font-size: 22px !important;
-  margin-bottom: 10px;
-}
-.whatofferwrapper .whatofferInnerwrapper .whatofferlist {
-  margin-top: 25px !important;
-}
-.whatofferwrapper .whatofferInnerwrapper .whatofferlist ul {
-  padding-left: 15px !important;
-}
-.casinoCardwrapper .cardTopHeading p {
-  font-size: 18px !important;
-  margin-bottom: 0 !important;
-}
-.casinoCardwrapper .cardTopHeading {
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
-}
-.css-4rhtgj .bannerMain .headingContent {
-  max-width: 90% !important;
-  margin: 0 auto;
-}
-.bannerMain .headingContent h1 {
-  font-size: 26px !important;
-}
-.bannerMain .headingContent .text {
-  font-size: 18px !important;
-}
-.gaming-wrapper .gaming-content {
-  grid-template-columns: 15% 1fr !important;
-}
-.gaming-wrapper .gaming-content {
-  max-width: 90%;
-  margin: 0 auto;
-}
-.whatofferwrapper .whatofferInnerwrapper .whatofferlist li {
-  margin-bottom: 15px !important;
-}
-.headerBar .headerWrapper ul.headerNav li {
-  margin: 15px 0px !important;
-  font-size: 18px;
-}
-.headerNav.mobile-menu-link ul.headerNav {
-  top: 70px;
-}
-section.CardWrapper .CardInnerWrapper .content p {
-  font-size: 18px !important;
-}
-section.CardWrapper .CardInnerWrapper .whatofferlist li span {
-  font-size: 18px !important;
-}
-.css-1enrhph section.CardWrapper .CardInnerWrapper .content {
-  text-align: center;
-}
-.App {
-  overflow-x: hidden !important;
-}
-.css-tzho3n .gaming-wrapper .gaming-content .gaming-text .headingstyle .heading {
-  font-size: 18px!important;
-}
-.css-tzho3n .gaming-wrapper .gaming-content {
-  grid-template-columns: 15% 1fr !important;
-}
-.css-tev4lc .whatofferwrapper .doubleHeading p {
-  font-size: 18px !important;
-}
-.css-m2mpud .cardRiver .cardRiverInner .imgWrapper img {
-  height: 100% !important;
-}
+  }
+
+  .bannerMain .headingContent .headingstyle .img {
+    margin-top: 0 !important;
+  }
+
+  section.whychoose .whychoosewraper h3 {
+    font-size: 22px !important;
+    margin-bottom: 10px;
+  }
+
+  .whatofferwrapper .whatofferInnerwrapper .whatofferlist {
+    margin-top: 25px !important;
+  }
+
+  .whatofferwrapper .whatofferInnerwrapper .whatofferlist ul {
+    padding-left: 15px !important;
+  }
+
+  .casinoCardwrapper .cardTopHeading p {
+    font-size: 18px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .casinoCardwrapper .cardTopHeading {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .css-4rhtgj .bannerMain .headingContent {
+    max-width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .bannerMain .headingContent h1 {
+    font-size: 26px !important;
+  }
+
+  .bannerMain .headingContent .text {
+    font-size: 18px !important;
+  }
+
+  .gaming-wrapper .gaming-content {
+    grid-template-columns: 15% 1fr !important;
+  }
+
+  .gaming-wrapper .gaming-content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .whatofferwrapper .whatofferInnerwrapper .whatofferlist li {
+    margin-bottom: 15px !important;
+  }
+
+  .headerBar .headerWrapper ul.headerNav li {
+    margin: 15px 0px !important;
+    font-size: 18px;
+  }
+
+  .headerNav.mobile-menu-link ul.headerNav {
+    top: 70px;
+  }
+
+  section.CardWrapper .CardInnerWrapper .content p {
+    font-size: 18px !important;
+  }
+
+  section.CardWrapper .CardInnerWrapper .whatofferlist li span {
+    font-size: 18px !important;
+  }
+
+  .css-1enrhph section.CardWrapper .CardInnerWrapper .content {
+    text-align: center;
+  }
+
+  .App {
+    overflow-x: hidden !important;
+  }
+
+  .css-tzho3n .gaming-wrapper .gaming-content .gaming-text .headingstyle .heading {
+    font-size: 18px !important;
+  }
+
+  .css-tzho3n .gaming-wrapper .gaming-content {
+    grid-template-columns: 15% 1fr !important;
+  }
+
+  .css-tev4lc .whatofferwrapper .doubleHeading p {
+    font-size: 18px !important;
+  }
+
+  .css-m2mpud .cardRiver .cardRiverInner .imgWrapper img {
+    height: 100% !important;
+  }
+
+  .css-1b4gn8u .bannerMain {
+    height: 60vh !important;
+  }
+
+  .css-1ual02h .casinoCardwrapper .cardsec .card-body {
+    grid-template-columns: 1fr !important;
+  }
+
+  .css-1ual02h .casinoCardwrapper .cardsec .card-data {
+    text-align: center;
+  }
+
+  .css-y8bz97 .headerNav.mobile-menu-link ul.headerNav {
+    display: block !important;
+    position: fixed;
+    right: 0;
+    background: #ffffff;
+    top: 80px !important;
+    bottom: 0;
+    width: 50%;
+    overflow: auto;
+    padding-bottom: 400px;
+  }
 }

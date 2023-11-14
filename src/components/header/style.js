@@ -37,6 +37,8 @@ export const HeaderStyle = styled.header`
                 a {
                   color: #28ebbc;
                   transition: .3s;
+                  font-weight: 600 !important;
+
                   &:hover{
                     color: #0E0E0E;
                   }
