@@ -1,7 +1,7 @@
 import React from "react";
 import { FooterWrapper } from "./style";
 import { Box, Container, Typography } from "@mui/material";
-import FooterNav from "../footer/FooterNav";
+import FooterNav from "./FooterNav";
 import logo from "../../assest/logo.png";
 import { FaFacebookF, FaYoutube, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 

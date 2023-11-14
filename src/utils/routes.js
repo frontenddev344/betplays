@@ -67,9 +67,7 @@ const routes = [
 }
 ];
   
-export const router = createBrowserRouter(routes,  {
-	basename: "/betplays",
-  });
+export const router = createBrowserRouter(routes);
   
 export const useCurrentPath = () => {
     const location = useLocation();
