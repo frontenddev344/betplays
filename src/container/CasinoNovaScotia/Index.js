@@ -8,10 +8,11 @@ import Accrodition from "../../components/CasinoNovaScotia/accordition/index"
 import CardRiver from "../../components/CasinoNovaScotia/cardRiver";
 import WhatWeOfferTwo from "../../components/CasinoNovaScotia/what-we-offers-Two/index";
 import WhatWeOffer from "../../components/CasinoNovaScotia/what-we-offers/index";
-
+import { tabTitle } from "../../utils/GenralFunction";
 
 
 export const CasinoNovaScotia = () => {
+    tabTitle('Casino Nova Scotia');
     return (
         <>
             <CasinoNovaWrapper>

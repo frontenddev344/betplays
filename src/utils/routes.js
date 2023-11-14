@@ -1,4 +1,4 @@
-import { createBrowserRouter, matchRoutes, Navigate, useLocation } from "react-router-dom";
+import { createBrowserRouter, matchRoutes, useLocation } from "react-router-dom";
 import { Home, CaesarsWindsorHotelCasino, CasinoduLacLeamy, CasinoRamaResort, ErrorPage, RiverRockCasinoResort, TheNiagaraFallsviewCasinoResort, CasinoDeMontreal, CasinoNovaScotia, CasinoNewBruBrunswick, Contact, PrivacyPolicy, TermandCondition } from '../container';
 const routes = [
 	{

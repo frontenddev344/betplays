@@ -8,9 +8,10 @@ import WhatWeOffer from "../../components/CasinoduLacLeamy/what-we-offers/index"
 import GamingExperience from "../../components/CasinoduLacLeamy/gaming-experiance/index";
 import WhatWeOfferTwo from "../../components/CasinoduLacLeamy/what-we-offers-Two/index";
 import Accrodition from "../../components/CasinoduLacLeamy/accordition/index";
-
+import { tabTitle } from "../../utils/GenralFunction";
 
 export const CasinoduLacLeamy = () => {
+    tabTitle('Casino Du LacLeamy');
     return (
         <>
             <CasinodulacWrapper>

@@ -8,9 +8,10 @@ import Card from "../../components/CasinodeMontreal/Card/index";
 import WhatWeOffer from "../../components/CasinodeMontreal/what-we-offers/index"
 import WhatWeOfferTwo from "../../components/CasinodeMontreal/what-we-offers-Two";
 import Accrodition from "../../components/CasinodeMontreal/accordition";
-
+import { tabTitle } from "../../utils/GenralFunction";
 
 export const CasinoDeMontreal = () => {
+    tabTitle('Casino De Montreal');
     return (
         <>
             <CasinodeWrapper>

@@ -7,9 +7,10 @@ import WhyChoose from "../../components/TheNiagaraFallsviewCasinoResort/why-choo
 import Card from "../../components/TheNiagaraFallsviewCasinoResort/Card/index";
 import WhatWeOfferTwo from "../../components/TheNiagaraFallsviewCasinoResort/what-we-offers-Two/index";
 import Accrodition from "../../components/TheNiagaraFallsviewCasinoResort/accordition/index"
-
+import { tabTitle } from "../../utils/GenralFunction";
 
 export const TheNiagaraFallsviewCasinoResort = () => {
+    tabTitle('The Niagara Fallsview Casino Resort');
     return (
         <>
             <RiverRockWrapper>

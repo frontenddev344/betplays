@@ -6,10 +6,11 @@ import SlideBanner from "../../components/CaesarsWindsorHotel&Casino/banner/Bann
 import WhyChoose from "../../components/CaesarsWindsorHotel&Casino/why-choose";
 import GamingExperience from "../../components/CaesarsWindsorHotel&Casino/gaming-experiance/index";
 import WhatWeOffer from "../../components/CaesarsWindsorHotel&Casino/what-we-offers/index";
-import  Accrodition  from "../../components/CaesarsWindsorHotel&Casino/accordition/index";
-
+import Accrodition from "../../components/CaesarsWindsorHotel&Casino/accordition/index";
+import { tabTitle } from "../../utils/GenralFunction";
 
 export default function CaesarsWindsorHotelCasino() {
+    tabTitle('Caesars Windsor Hotel Casino');
     return (
         <>
             <CaesarsWrapper>
